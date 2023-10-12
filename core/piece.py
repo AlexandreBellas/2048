@@ -3,4 +3,4 @@ class Piece:
 
     def __init__(self, number: int = 0, isCombined=False):
         self.number = number
-        self.isCombined = False
+        self.isCombined = isCombined
